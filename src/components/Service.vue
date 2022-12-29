@@ -10,7 +10,7 @@
     <div class="w-full text-xl md:text-3xl my-10 flex justify-center">
       <div class="h-auto w-5/6 flex justify-around text-3xl md:text-5xl">
         <div
-          @click="changeContent('safe')"
+          @mouseover="changeContent('safe')"
           class="group [transform:translateZ(0)] p-8 border-2 divide-white rounded-lg overflow-hidden relative cursor-pointer select-none before:absolute before:bg-sky-600 before:top-1/2 before:left-1/2 before:h-12 before:w-12 before:-translate-y-1/2 before:-translate-x-1/2 before:rounded-full before:scale-[0] before:opacity-0 hover:before:scale-[6] hover:before:opacity-100 before:transition before:ease-in-out before:duration-500">
           <span class="relative z-0 group-hover:text-black transition ease-in-out duration-500">
             <font-awesome-icon icon="fa-solid fa-shield-heart" /><br />安<br />全
@@ -18,7 +18,7 @@
         </div>
         
         <div
-          @click="changeContent('fast')"
+          @mouseover="changeContent('fast')"
           class="group [transform:translateZ(0)] p-8 border-2 divide-white rounded-lg overflow-hidden relative cursor-pointer select-none before:absolute before:bg-sky-600 before:top-1/2 before:left-1/2 before:h-12 before:w-12 before:-translate-y-1/2 before:-translate-x-1/2 before:rounded-full before:scale-[0] before:opacity-0 hover:before:scale-[6] hover:before:opacity-100 before:transition before:ease-in-out before:duration-500">
           <span class="relative z-0 group-hover:text-black transition ease-in-out duration-500">
             <font-awesome-icon icon="fa-solid fa-bolt" /><br />快<br />速
@@ -26,7 +26,7 @@
         </div>
 
         <div
-          @click="changeContent('sturdy')"
+          @mouseover="changeContent('sturdy')"
           class="group [transform:translateZ(0)] p-8 border-2 divide-white rounded-lg overflow-hidden relative cursor-pointer select-none before:absolute before:bg-sky-600 before:top-1/2 before:left-1/2 before:h-12 before:w-12 before:-translate-y-1/2 before:-translate-x-1/2 before:rounded-full before:scale-[0] before:opacity-0 hover:before:scale-[6] hover:before:opacity-100 before:transition before:ease-in-out before:duration-500">
           <span class="relative z-0 group-hover:text-black transition ease-in-out duration-500">
             <font-awesome-icon icon="fa-brands fa-accessible-icon" /><br />穩<br />健

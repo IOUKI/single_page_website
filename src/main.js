@@ -20,7 +20,7 @@ library.add(faL)
 
 // sweetalert2
 const sweetalert2_option = {
-  confirmButtonColor: '#41b882',
+  confirmButtonColor: '#006bf0',
   cancelButtonColoe: '#ff7674'
 }
 import VueSweetalert2 from 'vue-sweetalert2'
